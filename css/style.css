@@ -17,6 +17,11 @@ body{
     justify-content: center;
     background-color: #e6a733;
 }
+canvas{
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+}
 h1{
     font-size: 2em;
     font-weight: 700;
