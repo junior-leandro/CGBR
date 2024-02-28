@@ -21,6 +21,7 @@ canvas{
     position: absolute;
     width: 60vw;
     height: 100vh;
+    z-index: 0;
 }
 h1{
     font-size: 2em;
@@ -42,7 +43,7 @@ img{
 }
 
 .ocult{
-    display: block; /* Display none to ocult */
+    display: none; /* Display none to ocult */
 }
 
 #input{
@@ -77,8 +78,17 @@ button{
     margin-top: 80px;
     border: none;
     cursor: pointer;
-    margin-top:20px;
+    margin: 20px auto;
+    z-index: 1;
 }
+
+#new {
+    margin: 0;
+    font-size: 1em;
+    width: 150px;
+    height: 35px;
+}
+
 
 button:hover{
     opacity: 0.9;
