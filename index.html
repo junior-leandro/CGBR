@@ -7,13 +7,23 @@
     <link rel="shortcut icon" href="./img/CGBR.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Sorteador Card Games Brasil</title>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const yrSpan = document.querySelector('.year');
+            const currentYr = new Date().getFullYear();
+            yrSpan.textContent = currentYr;
+        });
+    </script>
+
 </head>
 
 <body>
-    
+
     <h1>SORTEADOR CARD GAMES BRASIL</h1>
     <img src="./img/CGBR.png" alt="Logotippo Card Games Brasil" id="logo">
-   
+
     <canvas id="my-canvas"></canvas>
 
     <div id="result">
@@ -28,9 +38,13 @@
 
 
     <button onclick="generateNumber()">Sortear</button>
-    <button id="new" onClick="window.location.reload()">NOVO SORTEIO</button> 
+    <button id="new" onClick="window.location.reload()">NOVO SORTEIO</button>
 
 
+    <span class="rodape">
+        <a href="http://facebook.com/Card-Games-Brasil-2161986054016077" target="_blank">Card Games Brasil <span class="year"></span></a> 
+        | Developer by 
+        <a href="https://junior.dev.br" target="_blank">junior.dev.br</a></span>
 
     <script src="./js/confetti.js"></script>
     <script src="./js/script.js"></script>

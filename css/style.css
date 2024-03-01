@@ -19,7 +19,7 @@ body{
 }
 canvas{
     position: absolute;
-    width: 60vw;
+    max-width: 80vw;
     height: 100vh;
     z-index: 0;
 }
@@ -43,7 +43,7 @@ img{
 }
 
 .ocult{
-    display: none; /* Display none to ocult */
+    display: none;
 }
 
 #input{
@@ -78,7 +78,7 @@ button{
     margin-top: 80px;
     border: none;
     cursor: pointer;
-    margin: 20px auto;
+    margin: 10px auto;
     z-index: 1;
 }
 
@@ -96,4 +96,17 @@ button:hover{
 
 button:active{
     opacity:0.8;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 5PX;
+    text-align: center;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #000000;
+    
+    font-weight: 700;
 }
