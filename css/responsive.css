@@ -1,0 +1,23 @@
+@media (max-width: 425px) {
+
+    canvas {
+        max-width: 95vw;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+    #input{
+     gap: 1em;
+    }
+    input{
+        width: 150px;
+        height: 50px;
+        font-size: 1.3em;
+    }
+    .rodape{
+        position: relative;
+        margin-top: 40px;
+        font-size: .8em;
+    }
+}
